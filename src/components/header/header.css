@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 4rem;
     overflow: hidden;
 }
 
@@ -13,7 +13,7 @@ header {
 /* ======== CTA ======== */
 
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -46,7 +46,7 @@ header {
     height: 13.5rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 7rem;
+    margin-top: 8rem;
     border-radius: 10rem 10rem 0 0;
     overflow: hidden;
     
@@ -60,7 +60,7 @@ header {
         bottom: 8rem;
         transform: rotate(90deg);
         font-weight: 300;
-        font-size: 0.9rem;
+        font-size: 1rem;
 }
 
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
