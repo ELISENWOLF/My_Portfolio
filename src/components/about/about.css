@@ -32,15 +32,15 @@
 
 .about_card {
     background: var(--color-bg-variant);
-    border: 1px solid transparent;
+    border: none;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
 }
 
 .about_card:hover {
-    background: transparent;
-    border-color: var(--color-bg-variant);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
     transition: var(--transition);
 }
 

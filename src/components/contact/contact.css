@@ -15,14 +15,15 @@
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
+    overflow: hidden;
     text-align: center;
-    border: 1px solid transparent;
+    border: none;
     transition: var(--transition);
 }
 
-.contact_option:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+.contact_option:hover {  
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
 }
 
 .contact_option_icon {
