@@ -1,5 +1,4 @@
 import React, { useRef } from 'react'
-import 'vanilla-tilt'
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsWhatsapp} from 'react-icons/bs'
@@ -28,22 +27,22 @@ const Contact = () => {
 
       <div className="container contact_container">
         <div className="contact_options">
-          <article className='contact_option' data-tilt data-tilt-max="30" data-tilt-glare data-tilt-max-glare="0.55">
+          <article className='contact_option'>
             <HiOutlineMail className='contact_option_icon'/>
             <h4>Email</h4>
             <h5>aravindprakash2001@gmail.com</h5>
             <a href='mailto:aravindprakash2001@gmail.com'>Send a message</a>
           </article>
-          <article className='contact_option' data-tilt data-tilt-max="30" data-tilt-glare data-tilt-max-glare="0.55">
+          <article className='contact_option'>
             <RiMessengerFill className='contact_option_icon'/>
             <h4>Messenger</h4>
             <h5>Aravind Prakash</h5>
-            <a href='https://m.me/Elisenwolf25/' target='_blank' rel='noreferrer'>Send a message</a>
+            <a href='https://m.me/Elisenwolf25/' target='_blank'>Send a message</a>
           </article>
-          <article className='contact_option' data-tilt data-tilt-max="30" data-tilt-glare data-tilt-max-glare="0.55">
+          <article className='contact_option'>
             <BsWhatsapp className='contact_option_icon'/>
             <h4>WhatsApp</h4>
-            <a href='https://wa.me/+918129831054' target='_blank' rel='noreferrer'>Send a message</a>
+            <a href='https://wa.me/+918129831054' target='_blank'>Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

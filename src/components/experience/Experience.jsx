@@ -1,5 +1,4 @@
 import React from 'react'
-import 'vanilla-tilt'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
@@ -10,7 +9,7 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience_container">
-        <div className="experience_frontend" data-tilt data-tilt-max="30" data-tilt-glare data-tilt-max-glare="0.55">
+        <div className="experience_frontend">
           <h3>Frontend Development</h3>
           <div className="experience_content">
             <article className='experience_details'>
@@ -64,7 +63,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        <div className="experience_backend" data-tilt data-tilt-max="30" data-tilt-glare data-tilt-max-glare="0.55">
+        <div className="experience_backend">
           <h3>Backend Development</h3>
           <div className="experience_content">
           <article className='experience_details'>

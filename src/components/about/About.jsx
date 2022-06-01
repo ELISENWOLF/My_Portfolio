@@ -1,5 +1,4 @@
 import React from 'react'
-import 'vanilla-tilt'
 import './about.css'
 import CODE from '../../assets/code.png'
 import {FaAward} from 'react-icons/fa'
@@ -20,12 +19,12 @@ const About = () => {
         </div>
         <div className="about_content">
           <div className="about_cards">
-            <article className='about_card' data-tilt data-tilt-max="30" data-tilt-glare data-tilt-max-glare="0.55">
+            <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
               <small>3+ years programming </small>
             </article>
-            <article className='about_card' data-tilt data-tilt-max="30" data-tilt-glare data-tilt-max-glare="0.55">
+            <article className='about_card'>
               <VscFolderLibrary className='about_icon'/>
               <h5>Projects</h5>
               <small>10+ Completed</small>

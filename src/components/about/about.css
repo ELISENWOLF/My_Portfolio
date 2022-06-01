@@ -11,6 +11,7 @@
     background: linear-gradient(45deg, transparent, rgba(186, 178, 178, 0.5), transparent); /*rgba(186, 178, 178, 0.4)*/
     display: grid;
     place-items: center;
+    z-index: 1;
 }
 
 .about_me-image {
@@ -36,6 +37,7 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    z-index: 1;
 }
 
 .about_card:hover {

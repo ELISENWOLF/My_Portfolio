@@ -9,6 +9,7 @@
     padding: 2.5rem 4rem;
     border-radius: 2rem;
     border: none;
+    z-index: 1;
 }
 
 .experience_container > div:hover {
