@@ -5,7 +5,8 @@ import { useCallback, useMemo } from 'react'
 
 const ParticlesComponent = (props) => {
 
-  const options = {
+  const options = useMemo(() => {
+    return {
         interactivity: {
           events: {
             onClick: {
@@ -57,13 +58,16 @@ const ParticlesComponent = (props) => {
           }
         }
       }
+    }, [])
 
-
+  const particlesInit = useCallback((engine) => {
+    loadSlim(engine)
+  })
  
 
   return (
-    <Particles id={props.id} options={options}/> 
+    <Particles id={props.id} init={particlesInit} options={options}/> 
   )
-}
+  };
 
 export default ParticlesComponent
