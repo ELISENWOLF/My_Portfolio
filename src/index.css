@@ -12,13 +12,13 @@
 
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: linear-gradient(135deg,#950e9a 10%,#ff677d,#802c44);
-    --color-primary: #1ea0c8;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg-variant: linear-gradient(135deg,#0e709a 10%,#c067ff,#2197a4 100%);
+    --color-secondary: rgba(62, 177, 212, 0.8) ;
+    --color-primary: rgb(45, 203, 251) ;
+    --color-primary-variant: rgb(79, 96, 113);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --color-social: linear-gradient(135deg,#0e4d9a 10%,#c267ff,#ff0037);
-    --color-text: #f3ed;
 
     --transition: all 400ms ease;
 
@@ -83,29 +83,31 @@ a {
 }
 
 a:hover {
-    color: var(--color-text);
+    color: var(--color-white);
 }
 
 .btn {
-    background: var(--color-text);
+    background: var(--color-secondary);
     width: max-content;
     display: inline-block;
     color: var(--color-white);
     padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
+    border-radius: 2rem;
     cursor: pointer;
     border: none;
     transition: var(--transition);
 }
 
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    box-shadow:  3px 4px 12px rgba(0, 0, 0, 0.8);
 }
 
 .btn-primary {
     color: var(--color-white);
-    background: var(--color-primary);
+    background: var(--color-secondary);
 }
 
 img {

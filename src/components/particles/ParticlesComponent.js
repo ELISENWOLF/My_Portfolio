@@ -6,7 +6,8 @@ import { useCallback, useMemo } from 'react'
 const ParticlesComponent = (props) => {
 
   const options = useMemo(() => {
-    return {
+     return {
+        fpsLimit: 120,
         interactivity: {
           events: {
             onClick: {
@@ -58,7 +59,7 @@ const ParticlesComponent = (props) => {
           }
         }
       }
-    }, [])
+     }, [])
 
   const particlesInit = useCallback((engine) => {
     loadSlim(engine)
@@ -66,7 +67,7 @@ const ParticlesComponent = (props) => {
  
 
   return (
-    <Particles init={particlesInit} options={options}/> 
+    <Particles init={particlesInit} id={props.id} options={options}/> 
   )
   };
 
