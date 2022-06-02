@@ -65,7 +65,7 @@ header {
         font-size: 1rem;
 }
 
-/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
+/* ===== MEDIA QUERIES (LARGE DEVICES) ===== */
 
 @media screen and (max-width:1024px) {
     header {
@@ -73,11 +73,30 @@ header {
     }
 }
 
-/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 
 @media screen and (max-width:600px) {
     header {
         height: 100vh;
+
+    }
+    
+
+    .header_socials, .scroll_down {
+        display: none;
+    }
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
+
+@media screen and (max-width:400px) {
+    header {
+        height: 100vh;
+
+    }
+    
+    .me {
+        margin-top: 5rem;
     }
 
     .header_socials, .scroll_down {
