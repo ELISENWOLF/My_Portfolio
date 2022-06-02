@@ -1,12 +1,12 @@
 import Particles from 'react-tsparticles'
-// import { loadSlim } from 'tsparticles-slim'
+import { loadSlim } from 'tsparticles-slim'
 // import { loadFull } from 'tsparticles'
-// import { useCallback, useMemo } from 'react'
+import { useCallback, useMemo } from 'react'
 
 const ParticlesComponent = (props) => {
 
-  const options = {
-    // return {
+  const options = useMemo(() => {
+    return {
         interactivity: {
           events: {
             onClick: {
@@ -57,15 +57,16 @@ const ParticlesComponent = (props) => {
             type: "circle"
           }
         }
-    }
+      }
+    }, [])
 
-  // const particlesInit = useCallback((engine) => {
-  //   loadSlim(engine)
-  // })
+  const particlesInit = useCallback((engine) => {
+    loadSlim(engine)
+  })
  
 
   return (
-    <Particles id={props.id}  options={options}/> 
+    <Particles init={particlesInit} options={options}/> 
   )
   };
 

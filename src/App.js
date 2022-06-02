@@ -18,7 +18,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
-      <ParticlesComponent id='tsparticles'/>
+      <ParticlesComponent />
     </>
   )
 }
