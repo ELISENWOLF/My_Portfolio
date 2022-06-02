@@ -29,7 +29,7 @@ const ParticlesComponent = (props) => {
               color: "#a3cdef",
               enable: true,
               distance: 80,
-              opacity: 0.6,
+              opacity: 0.1,
               size: 7,
           },
           collision: {
@@ -37,10 +37,10 @@ const ParticlesComponent = (props) => {
           },
           move: {
               enable: true,
-              speed: { min: 0, max: 3},
+              speed: { min: 1, max: 1},
           },
           opacity: {
-            value: { min: 0, max: 0.7},
+            value: { min: 0, max: 0.3},
           },
           size: {
             value: { min: 1, max: 3 },
