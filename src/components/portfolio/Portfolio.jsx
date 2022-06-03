@@ -17,7 +17,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG1} alt='IMDB' />
           </div>
-          <h3>Imdb Clone</h3>
+          <h3>Imdb_Clone</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/IMDB_Clone" className='btn' target='_blank'>Github</a>
             <a href="http://elisenimdb.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -27,7 +27,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG2} alt='IMDB' />
           </div>
-          <h3>Slack Clone</h3>
+          <h3>Slack_Clone</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/Slack_Clone" className='btn' target='_blank'>Github</a>
             <a href="http://elisenslack.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG4} alt='IMDB' />
           </div>
-          <h3>Imgur Frontend</h3>
+          <h3>Imgur-Frontend</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/Imgur_Frontend" className='btn' target='_blank'>Github</a>
           </div>
