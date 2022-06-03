@@ -30,6 +30,7 @@ const Portfolio = () => {
           <h3>Slack Clone</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/Slack_Clone" className='btn' target='_blank'>Github</a>
+            <a href="http://elisenslack.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
