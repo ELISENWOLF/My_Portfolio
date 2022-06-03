@@ -27,7 +27,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG2} alt='IMDB' />
           </div>
-          <h3>Slack_desktop</h3>
+          <h3>Slack_Clone</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/Slack_Clone" className='btn' target='_blank'>Github</a>
             <a href="http://elisenslack.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
