@@ -17,7 +17,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG1} alt='IMDB' />
           </div>
-          <h3>Imdb_Clons</h3>
+          <h3>Imdb_Clone</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/IMDB_Clone" className='btn' target='_blank'>Github</a>
             <a href="http://elisenimdb.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
