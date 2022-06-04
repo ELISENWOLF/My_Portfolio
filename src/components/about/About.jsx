@@ -31,8 +31,9 @@ const About = () => {
             </article>
           </div>
            <p>
-           Hi. I’m a Front-End Developer with a knack in React , Javascript, HTML, CSS, GitHub, NodeJs and completed my BCA degree from Mahatma Gandhi University Kerala
-           and also completed 100 days bootcamp from School Of Accelerated Learning(SOAL) Hyderabad.Other hobbies love to draw.
+           Hi, I’m a Front-end developer with a knack in ReactJS, Javascript, HTML, CSS, GitHub and NodeJS. 
+           I completed product engineering from School of Accelerated Learning (SOAL) and got my BCA degree fron Mahatma Gandhi University. 
+           I like problem solving and creating art in my free time.
            </p> 
            <a href='#contact' className='btn btn-primary'>Let's Chat</a>
         </div>
