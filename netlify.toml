@@ -1,4 +1,0 @@
-[build]
-    base: "/opt/build/repo"
-    command: "npm run build"
-    commandOrigin: "config"
