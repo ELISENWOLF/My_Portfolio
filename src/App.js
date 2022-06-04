@@ -6,10 +6,12 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import ParticlesComponent from './components/particles/ParticlesComponent'
+import SoundBar from './components/sound/SoundBar'
 
 function App() {
   return (
     <>
+      <SoundBar />
       <Header />
       <Nav />
       <About />
