@@ -53,12 +53,6 @@ footer a {
     background: var(--color-social);
     color: var(--color-white);
 }
-
-.footer_copyright {
-    margin-bottom: 4rem;
-    color: var(--color-white);
-}
-
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 
 @media screen and (max-width:1024px) {

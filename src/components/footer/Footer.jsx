@@ -25,10 +25,6 @@ const Footer = () => {
         <a href='https://linkedin.com/in/elisenwolf/' target="_blank"><BsLinkedin/></a>
         <a href='https://github.com/ELISENWOLF' target="_blank"><FaGithub/></a>
       </div>
-
-      <div className="footer_copyright">
-        <small>&copy; ElisenWolf All rights reserved.</small>
-      </div>
     </footer>
   )
 }
