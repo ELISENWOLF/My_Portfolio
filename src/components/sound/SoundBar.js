@@ -7,24 +7,24 @@ const SoundContainer = styled.div`
     display: block;
     display:flex;
     position:fixed;
-    right:19.3rem;
+    right:6rem;
     top:2.5rem;
     color:rgba(255, 255, 255, 0.6);
     z-index:2;
     @media (max-width: 1024px){
             position: fixed;
-            right: 9rem;
-            top: 4rem;
+            right: 5rem;
+            top: 3.56rem;
         }
     @media (max-width: 600px){
             position: fixed;
-            right: 5rem;
-            top: 3.8rem;
+            right: 3.2rem;
+            top: 1.2rem;
         }
     @media (max-width: 400px){
             position: fixed;
             right: 4rem;
-            top: 4.1rem;
+            top: 1.7rem;
             font-size: 15px;
         }
 }
@@ -35,7 +35,7 @@ display: block;
 display:flex;
 cursor:pointer;
 position:fixed;
-right:15rem;
+right:2rem;
 top:3rem;
 z-index:2;
 
@@ -57,18 +57,18 @@ z-index:2;
 
 @media (max-width: 1024px){
     position: fixed;
-    right: 4.8rem;
-    top: 4.6rem;
+    right: 1rem;
+    top: 4.1rem;
 }
 @media (max-width: 600px){
     position: fixed;
-    right: 2.7rem;
-    top: 4.5rem;
+    right: 1rem;
+    top: 1.8rem;
 }
 @media (max-width: 400px){
     position: fixed;
     right: 1.7rem;
-    top: 4.5rem;
+    top: 2.1rem;
 }
 `
 const play = keyframes`

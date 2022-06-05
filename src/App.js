@@ -7,10 +7,12 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import ParticlesComponent from './components/particles/ParticlesComponent'
 import SoundBar from './components/sound/SoundBar'
+import Logo from './components/logo/Logo'
 
 function App() {
   return (
     <>
+      <Logo />
       <SoundBar />
       <Header />
       <Nav />
