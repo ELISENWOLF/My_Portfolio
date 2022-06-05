@@ -13,8 +13,8 @@
 :root {
     --color-bg: #1f1f38;
     --color-bg-variant: linear-gradient(135deg,#0e709a 30%,#2197a4);
-    --color-secondary: rgba(62, 177, 212, 0.8) ;
-    --color-primary: rgb(45, 203, 251) ;
+    --color-secondary: rgba(45, 203, 251, 0.8) ;
+    --color-primary: rgba(45, 203, 251, 1) ;
     --color-btn-primary: rgba(255, 255, 255, 1);
     --color-primary-variant: rgb(79, 96, 113);
     --color-white: #fff;
