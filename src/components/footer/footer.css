@@ -75,6 +75,8 @@ footer a {
 
    .footer_socials {
        margin-bottom: 2.6rem;
+       position: relative;
+       bottom: 1.5rem;
    }
 
    .footer_logo_head {
