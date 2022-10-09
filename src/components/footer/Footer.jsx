@@ -3,7 +3,7 @@ import './footer.css'
 import {FaFacebookF, FaGithub} from 'react-icons/fa'
 import {BsInstagram, BsLinkedin} from 'react-icons/bs'
 import {IoLogoTwitter} from 'react-icons/io'
-import logo from '../../assets/wolf_logo.png'
+import logo from '../../assets/wolf_logo.webp'
 
 const Footer = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import CODE from '../../assets/code.png'
+import CODE from '../../assets/code.webp'
 import {FaAward} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
 

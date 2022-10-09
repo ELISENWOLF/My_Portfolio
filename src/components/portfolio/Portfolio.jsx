@@ -1,10 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/imdb.png'
-import IMG2 from '../../assets/slack.png'
-import IMG3 from '../../assets/puzzle.png'
-import IMG4 from '../../assets/imgur.png'
-import IMG5 from '../../assets/sudoku.png'
+import IMG1 from '../../assets/imdb.webp'
+import IMG2 from '../../assets/slack.webp'
+import IMG3 from '../../assets/puzzle.webp'
+import IMG4 from '../../assets/imgur.webp'
+import IMG5 from '../../assets/sudoku.webp'
 
 const Portfolio = () => {
   return (
