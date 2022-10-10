@@ -15,7 +15,7 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG1} alt='IMDB' />
+            <img src={IMG1} alt='IMDB'/>
           </div>
           <h3>Imdb_Clone</h3>
           <div className="portfolio_item-cta">
@@ -25,7 +25,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG2} alt='IMDB' />
+            <img src={IMG2} alt='SLACK'/>
           </div>
           <h3>Slack_Clone</h3>
           <div className="portfolio_item-cta">
@@ -35,7 +35,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG3} alt='IMDB' />
+            <img src={IMG3} alt='IMAGE PUZZLE'/>
           </div>
           <h3>Image Puzzle</h3>
           <div className="portfolio_item-cta">
@@ -44,7 +44,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG4} alt='IMDB' />
+            <img src={IMG4} alt='IMGUR' />
           </div>
           <h3>Imgur-Frontend</h3>
           <div className="portfolio_item-cta">
@@ -53,7 +53,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG5} alt='IMDB' />
+            <img src={IMG5} alt='SUDOKU' />
           </div>
           <h3>Sudoku Solver</h3>
           <div className="portfolio_item-cta">

@@ -37,12 +37,12 @@ const Contact = () => {
             <RiMessengerFill className='contact_option_icon'/>
             <h4>Messenger</h4>
             <h5>Aravind Prakash</h5>
-            <a href='https://m.me/Elisenwolf25/' target='_blank'>Send a message</a>
+            <a href='https://m.me/Elisenwolf25/' target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           <article className='contact_option'>
             <BsWhatsapp className='contact_option_icon'/>
             <h4>WhatsApp</h4>
-            <a href='https://wa.me/+918129831054' target='_blank'>Send a message</a>
+            <a href='https://wa.me/+918129831054' target='_blank' rel='noreferrer'>Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
