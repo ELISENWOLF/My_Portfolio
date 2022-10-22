@@ -65,7 +65,7 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG6} alt='SLACK'/>
           </div>
-          <h3>UI/UX Design</h3>
+          <h3>ACME Frontend Design</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/Responsive_webpage" className='btn' target='_blank'>Github</a>
             <a href="https://mitsogoassessment.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
