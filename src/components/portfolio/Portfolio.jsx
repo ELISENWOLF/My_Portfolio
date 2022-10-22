@@ -5,6 +5,7 @@ import IMG2 from '../../assets/slack.webp'
 import IMG3 from '../../assets/puzzle.webp'
 import IMG4 from '../../assets/imgur.webp'
 import IMG5 from '../../assets/sudoku.webp'
+import IMG6 from '../../assets/website Design.webp'
 
 const Portfolio = () => {
   return (
@@ -58,6 +59,16 @@ const Portfolio = () => {
           <h3>Sudoku Solver</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/Sudoku" className='btn' target='_blank'>Github</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_image">
+            <img src={IMG6} alt='SLACK'/>
+          </div>
+          <h3>UI/UX Design</h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/ELISENWOLF/Responsive_webpage" className='btn' target='_blank'>Github</a>
+            <a href="https://mitsogoassessment.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
