@@ -5,7 +5,9 @@ import IMG2 from '../../assets/slack.webp'
 import IMG3 from '../../assets/puzzle.webp'
 import IMG4 from '../../assets/imgur.webp'
 import IMG5 from '../../assets/sudoku.webp'
-import IMG6 from '../../assets/website Design.webp'
+import IMG6 from '../../assets/insurance_plum.webp'
+import IMG7 from '../../assets/website Design.webp'
+
 
 const Portfolio = () => {
   return (
@@ -63,7 +65,17 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG6} alt='SLACK'/>
+            <img src={IMG6} alt='insurance_plum'/>
+          </div>
+          <h3>INSURE_Design</h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/ELISENWOLF/Insurance_Plum" className='btn' target='_blank'>Github</a>
+            <a href="http://insuranceplum.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_image">
+            <img src={IMG7} alt='SLACK'/>
           </div>
           <h3>ACME Frontend Design</h3>
           <div className="portfolio_item-cta">
