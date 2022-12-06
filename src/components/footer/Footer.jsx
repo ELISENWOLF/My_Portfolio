@@ -1,14 +1,14 @@
 import React from 'react'
 import './footer.css'
-import {FaFacebookF, FaGithub} from 'react-icons/fa'
-import {BsInstagram, BsLinkedin} from 'react-icons/bs'
-import {IoLogoTwitter} from 'react-icons/io'
+import { FaFacebookF, FaGithub } from 'react-icons/fa'
+import { BsInstagram, BsLinkedin } from 'react-icons/bs'
+import { IoLogoTwitter } from 'react-icons/io'
 import logo from '../../assets/wolf_logo.webp'
 
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer_logo'><h3 className='footer_logo_head'>elisenwolf</h3><img src={logo} alt='logo' className='img'/></a>
+      <a href='#' className='footer_logo'><h3 className='footer_logo_head'>elisenwolf</h3><img src={logo} alt='logo' className='img' /></a>
 
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
@@ -22,8 +22,8 @@ const Footer = () => {
         <a href='https://facebook.com/Elisenwolf25' target='_blank' rel='noreferrer'><FaFacebookF /></a>
         <a href='https://www.instagram.com/elisen_wolf' target='_blank' rel='noreferrer'><BsInstagram /></a>
         <a href='https://twitter.com/Elisenwolf' target='_blank' rel='noreferrer'><IoLogoTwitter /></a>
-        <a href='https://linkedin.com/in/elisenwolf/' target="_blank" rel='noreferrer'><BsLinkedin/></a>
-        <a href='https://github.com/ELISENWOLF' target="_blank" rel='noreferrer'><FaGithub/></a>
+        <a href='https://linkedin.com/in/elisenwolf/' target="_blank" rel='noreferrer'><BsLinkedin /></a>
+        <a href='https://github.com/ELISENWOLF' target="_blank" rel='noreferrer'><FaGithub /></a>
       </div>
     </footer>
   )

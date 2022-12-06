@@ -112,27 +112,27 @@ const SoundBar = () => {
     const handleClick = () => {
         setMisc(!misc);
 
-        if(!misc){
+        if (!misc) {
             ref.current.play();
-        }else{
+        } else {
             ref.current.pause();
         }
     }
 
-  return (
-      <SoundContainer>
-          <h3>Play</h3>
-        <Box onClick={() => handleClick()}>
-            <Line click={misc} />
-            <Line click={misc} />
-            <Line click={misc} />
-            <Line click={misc} />
-            <Line click={misc} />
+    return (
+        <SoundContainer>
+            <h3>Play</h3>
+            <Box onClick={() => handleClick()}>
+                <Line click={misc} />
+                <Line click={misc} />
+                <Line click={misc} />
+                <Line click={misc} />
+                <Line click={misc} />
 
-            <audio src={mus} ref={ref} loop/>
-        </Box>
-    </SoundContainer>
-  )
+                <audio src={mus} ref={ref} loop />
+            </Box>
+        </SoundContainer>
+    )
 }
 
 export default SoundBar

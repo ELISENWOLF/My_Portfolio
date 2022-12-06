@@ -12,7 +12,7 @@ import Logo from './components/logo/Logo'
 
 function App() {
   return (
-  <>
+    <>
       <Logo />
       <SoundBar />
       <Header />
@@ -22,7 +22,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
-      <ParticlesComponent id='tsparticles'/>
+      <ParticlesComponent id='tsparticles' />
     </>
   );
 }

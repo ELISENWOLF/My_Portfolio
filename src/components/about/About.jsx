@@ -1,8 +1,8 @@
 import React from 'react'
 import './about.css'
 import CODE from '../../assets/code.webp'
-import {FaAward} from 'react-icons/fa'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { FaAward } from 'react-icons/fa'
+import { VscFolderLibrary } from 'react-icons/vsc'
 
 
 const About = () => {
@@ -20,22 +20,22 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className='about_card'>
-              <FaAward className='about_icon'/>
+              <FaAward className='about_icon' />
               <h5>Experience</h5>
               <small>3+ years programming </small>
             </article>
             <article className='about_card'>
-              <VscFolderLibrary className='about_icon'/>
+              <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
               <small>10+ Completed</small>
             </article>
           </div>
-           <p>
-           Hi, I’m a Front-end developer with a knack in ReactJS, Javascript, HTML, CSS, GitHub and NodeJS. 
-           I completed product engineering from School of Accelerated Learning (SOAL) and got my BCA degree from Mahatma Gandhi University. 
-           I like problem solving and creating art in my free time.
-           </p> 
-           <a href='#contact' className='btn btn-primary'>Let's Chat</a>
+          <p>
+            Hi, I’m a Front-end developer with a knack in ReactJS, Javascript, HTML, CSS, GitHub and NodeJS.
+            I completed product engineering from School of Accelerated Learning (SOAL) and got my BCA degree from Mahatma Gandhi University.
+            I like problem solving and creating art in my free time.
+          </p>
+          <a href='#contact' className='btn btn-primary'>Let's Chat</a>
         </div>
       </div>
     </section>

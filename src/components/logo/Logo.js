@@ -58,11 +58,11 @@ const LogoContainer = styled.div`
 
 
 const Logo = () => {
-  return (
-    <LogoContainer>
-          <h2>elisenwolf</h2><img src={logo} alt='logo'/>
-    </LogoContainer>
-  )
+    return (
+        <LogoContainer>
+            <h2>elisenwolf</h2><img src={logo} alt='logo' />
+        </LogoContainer>
+    )
 }
 
 export default Logo

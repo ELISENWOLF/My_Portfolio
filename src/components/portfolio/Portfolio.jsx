@@ -18,7 +18,7 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG1} alt='IMDB'/>
+            <img src={IMG1} alt='IMDB' />
           </div>
           <h3>Imdb_Clone</h3>
           <div className="portfolio_item-cta">
@@ -28,7 +28,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG2} alt='SLACK'/>
+            <img src={IMG2} alt='SLACK' />
           </div>
           <h3>Slack_Clone</h3>
           <div className="portfolio_item-cta">
@@ -38,7 +38,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG3} alt='IMAGE PUZZLE'/>
+            <img src={IMG3} alt='IMAGE PUZZLE' />
           </div>
           <h3>Image Puzzle</h3>
           <div className="portfolio_item-cta">
@@ -65,7 +65,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG6} alt='insurance_plum'/>
+            <img src={IMG6} alt='insurance_plum' />
           </div>
           <h3>INSURE_Design</h3>
           <div className="portfolio_item-cta">
@@ -75,7 +75,7 @@ const Portfolio = () => {
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
-            <img src={IMG7} alt='SLACK'/>
+            <img src={IMG7} alt='SLACK' />
           </div>
           <h3>ACME Frontend Design</h3>
           <div className="portfolio_item-cta">

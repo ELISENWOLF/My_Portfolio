@@ -1,85 +1,85 @@
 footer {
-    background: var(--color-bg-variant);
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 2rem;
+  background: var(--color-bg-variant);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }
 
 footer a {
-    color: var(--color-white);
+  color: var(--color-white);
 }
 
 .footer_logo {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    display: inline-flex;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  display: inline-flex;
 }
 
 .img {
-    width: 3.5rem;
-    height: 3.5rem;
-    position: relative;
-    top: .2rem;
-    margin-left: 0.5rem;
-   }
+  width: 3.5rem;
+  height: 3.5rem;
+  position: relative;
+  top: 0.2rem;
+  margin-left: 0.5rem;
+}
 
 .permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
 }
 
 .footer_socials {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
 }
 
 .footer_socials a {
-    background: var(--color-bg);
-    color: var(--color-white);
-    padding: 0.8rem;
-    border-radius: 0.7rem;
-    display: flex;
-    border: 1px solid none;
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid none;
 }
 
 .footer_socials a:hover {
-    background: var(--color-social);
-    color: var(--color-white);
+  background: var(--color-social);
+  color: var(--color-white);
 }
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 
-@media screen and (max-width:1024px) {
-   .img {
+@media screen and (max-width: 1024px) {
+  .img {
     width: 3rem;
     height: 3rem;
     position: relative;
     top: 0.35rem;
     margin-left: 0.5rem;
-   }
+  }
 }
 
 /* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
 
-@media screen and (max-width:600px) {
-   .permalinks {
-       flex-direction: column;
-       gap: 1.5rem;
-   }
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
-   .footer_socials {
-       margin-bottom: 2.6rem;
-       position: relative;
-       bottom: 1.5rem;
-   }
+  .footer_socials {
+    margin-bottom: 2.6rem;
+    position: relative;
+    bottom: 1.5rem;
+  }
 
-   .footer_logo_head {
-       display: none !important;
-   }
+  .footer_logo_head {
+    display: none !important;
+  }
 }
