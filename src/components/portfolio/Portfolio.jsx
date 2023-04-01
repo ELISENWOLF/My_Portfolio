@@ -33,7 +33,27 @@ const Portfolio = () => {
           <h3>Slack_Clone</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/Slack_Clone" className='btn' target='_blank'>Github</a>
-            <a href="http://elisenslack.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://elisen-chat.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_image">
+            <img src={IMG6} alt='insurance_plum' />
+          </div>
+          <h3>INSURE_Design</h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/ELISENWOLF/Insurance_Plum" className='btn' target='_blank'>Github</a>
+            <a href="http://insuranceplum.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+        <article className='portfolio_item'>
+          <div className="portfolio_item_image">
+            <img src={IMG7} alt='SLACK' />
+          </div>
+          <h3>ACME Frontend Design</h3>
+          <div className="portfolio_item-cta">
+            <a href="https://github.com/ELISENWOLF/Responsive_webpage" className='btn' target='_blank'>Github</a>
+            <a href="https://mitsogoassessment.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
@@ -61,26 +81,6 @@ const Portfolio = () => {
           <h3>Sudoku Solver</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/Sudoku" className='btn' target='_blank'>Github</a>
-          </div>
-        </article>
-        <article className='portfolio_item'>
-          <div className="portfolio_item_image">
-            <img src={IMG6} alt='insurance_plum' />
-          </div>
-          <h3>INSURE_Design</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/ELISENWOLF/Insurance_Plum" className='btn' target='_blank'>Github</a>
-            <a href="http://insuranceplum.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio_item'>
-          <div className="portfolio_item_image">
-            <img src={IMG7} alt='SLACK' />
-          </div>
-          <h3>ACME Frontend Design</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com/ELISENWOLF/Responsive_webpage" className='btn' target='_blank'>Github</a>
-            <a href="https://mitsogoassessment.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
       </div>
