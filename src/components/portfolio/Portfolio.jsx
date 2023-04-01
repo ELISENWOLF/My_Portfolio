@@ -23,7 +23,7 @@ const Portfolio = () => {
           <h3>Imdb_Clone</h3>
           <div className="portfolio_item-cta">
             <a href="https://github.com/ELISENWOLF/IMDB_Clone" className='btn' target='_blank'>Github</a>
-            <a href="http://elisenimdb.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://elisen-emdb.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
